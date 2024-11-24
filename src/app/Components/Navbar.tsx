@@ -10,7 +10,7 @@ const Navbar = () => {
           
           <img src={"images/logo.png"} alt='image'
            width={"100px"} height={"100px"}
-           className='w-20 h-20'/>
+           />
          
             </h1>
             <div className='block md:hidden'>
@@ -20,8 +20,7 @@ const Navbar = () => {
             </div>
 
       <nav>
-        id="menu"
-        className="hidden md:flex flex-col md:flex-row gap-5 bg-white py-1 md:py-0 md:static absolute top-20 left-0 w-full md:w-auto md:text-right shadow-lg md:shadow-none"
+    
         
         <ul className='flex flex-col md:flex-row md:gap-5 bg-white py-1'>
           <li>
